@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h1>CALCULATOR</h1>
+
+        <form action="" class="form" name="form">
+
+            <input type="text" name="screen" class="screen" id="">
+
+            <div class="btn">
+
+                <input type="button" name="button" value="7" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="8" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="9" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="+" class="button plus" onclick="valueBtn(this)">
+
+            </div>
+
+            <div class="btn">
+
+                <input type="button" name="button" value="4" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="5" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="6" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="-" class="button minus" onclick="valueBtn(this)">
+
+            </div>
+
+            <div class="btn">
+
+                <input type="button" name="button" value="1" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="2" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="3" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="*" class="button mult" onclick="valueBtn(this)">
+
+            </div>
+
+            <div class="btn">
+
+                <input type="button" name="button" value="C" class="button clear" onclick="Clear(this)">
+
+                <input type="button" name="button" value="0" class="button" onclick="valueBtn(this)">
+
+                <input type="button" name="button" value="=" class="button equal" onclick="equals(this)">
+
+                <input type="button" name="button" value="/" class="button divide" onclick="valueBtn(this)">
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
